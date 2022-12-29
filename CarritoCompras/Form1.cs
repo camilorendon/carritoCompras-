@@ -13,5 +13,11 @@ namespace CarritoCompras
             cboxProducto.Items.Add("camisa");
             cboxProducto.Items.Add("zapatos");
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            string productoselecionado = cboxProducto.SelectedItem.ToString();
+            listCarritoDeCompras.Items.Add(productoselecionado);
+        }
     }
 }
