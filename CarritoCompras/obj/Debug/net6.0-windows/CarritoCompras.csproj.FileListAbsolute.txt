@@ -1,0 +1,17 @@
+C:\Users\usuario\source\repos\CarritoCompras\CarritoCompras\bin\Debug\net6.0-windows\CarritoCompras.exe
+C:\Users\usuario\source\repos\CarritoCompras\CarritoCompras\bin\Debug\net6.0-windows\CarritoCompras.deps.json
+C:\Users\usuario\source\repos\CarritoCompras\CarritoCompras\bin\Debug\net6.0-windows\CarritoCompras.runtimeconfig.json
+C:\Users\usuario\source\repos\CarritoCompras\CarritoCompras\bin\Debug\net6.0-windows\CarritoCompras.dll
+C:\Users\usuario\source\repos\CarritoCompras\CarritoCompras\bin\Debug\net6.0-windows\CarritoCompras.pdb
+C:\Users\usuario\source\repos\CarritoCompras\CarritoCompras\obj\Debug\net6.0-windows\CarritoCompras.csproj.AssemblyReference.cache
+C:\Users\usuario\source\repos\CarritoCompras\CarritoCompras\obj\Debug\net6.0-windows\CarritoCompras.Form1.resources
+C:\Users\usuario\source\repos\CarritoCompras\CarritoCompras\obj\Debug\net6.0-windows\CarritoCompras.csproj.GenerateResource.cache
+C:\Users\usuario\source\repos\CarritoCompras\CarritoCompras\obj\Debug\net6.0-windows\CarritoCompras.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\source\repos\CarritoCompras\CarritoCompras\obj\Debug\net6.0-windows\CarritoCompras.AssemblyInfoInputs.cache
+C:\Users\usuario\source\repos\CarritoCompras\CarritoCompras\obj\Debug\net6.0-windows\CarritoCompras.AssemblyInfo.cs
+C:\Users\usuario\source\repos\CarritoCompras\CarritoCompras\obj\Debug\net6.0-windows\CarritoCompras.csproj.CoreCompileInputs.cache
+C:\Users\usuario\source\repos\CarritoCompras\CarritoCompras\obj\Debug\net6.0-windows\CarritoCompras.dll
+C:\Users\usuario\source\repos\CarritoCompras\CarritoCompras\obj\Debug\net6.0-windows\refint\CarritoCompras.dll
+C:\Users\usuario\source\repos\CarritoCompras\CarritoCompras\obj\Debug\net6.0-windows\CarritoCompras.pdb
+C:\Users\usuario\source\repos\CarritoCompras\CarritoCompras\obj\Debug\net6.0-windows\CarritoCompras.genruntimeconfig.cache
+C:\Users\usuario\source\repos\CarritoCompras\CarritoCompras\obj\Debug\net6.0-windows\ref\CarritoCompras.dll
