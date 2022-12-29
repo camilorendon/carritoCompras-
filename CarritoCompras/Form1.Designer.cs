@@ -32,6 +32,8 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnCalc = new System.Windows.Forms.Button();
             this.cboxProducto = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtCodigoDescuento = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // listCarritoDeCompras
@@ -47,7 +49,7 @@
             // 
             this.btnAdd.Location = new System.Drawing.Point(316, 134);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd.Size = new System.Drawing.Size(85, 34);
             this.btnAdd.TabIndex = 1;
             this.btnAdd.Text = "Agregar";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -57,24 +59,43 @@
             // 
             this.btnCalc.Location = new System.Drawing.Point(407, 134);
             this.btnCalc.Name = "btnCalc";
-            this.btnCalc.Size = new System.Drawing.Size(128, 23);
+            this.btnCalc.Size = new System.Drawing.Size(127, 34);
             this.btnCalc.TabIndex = 2;
             this.btnCalc.Text = "Calcular Precio Final";
             this.btnCalc.UseVisualStyleBackColor = true;
+            this.btnCalc.Click += new System.EventHandler(this.btnCalc_Click);
             // 
             // cboxProducto
             // 
             this.cboxProducto.FormattingEnabled = true;
             this.cboxProducto.Location = new System.Drawing.Point(316, 74);
             this.cboxProducto.Name = "cboxProducto";
-            this.cboxProducto.Size = new System.Drawing.Size(121, 23);
+            this.cboxProducto.Size = new System.Drawing.Size(218, 23);
             this.cboxProducto.TabIndex = 3;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(316, 207);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(96, 15);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Codigo de Dcto: ";
+            // 
+            // txtCodigoDescuento
+            // 
+            this.txtCodigoDescuento.Location = new System.Drawing.Point(407, 204);
+            this.txtCodigoDescuento.Name = "txtCodigoDescuento";
+            this.txtCodigoDescuento.Size = new System.Drawing.Size(127, 23);
+            this.txtCodigoDescuento.TabIndex = 5;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(649, 428);
+            this.Controls.Add(this.txtCodigoDescuento);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.cboxProducto);
             this.Controls.Add(this.btnCalc);
             this.Controls.Add(this.btnAdd);
@@ -83,6 +104,7 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -92,5 +114,7 @@
         private Button btnAdd;
         private Button btnCalc;
         private ComboBox cboxProducto;
+        private Label label1;
+        private TextBox txtCodigoDescuento;
     }
 }
